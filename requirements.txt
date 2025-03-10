@@ -1,0 +1,10 @@
+rich
+openai
+requests
+beautifulsoup4
+pdfminer
+pdf2image
+Pillow
+huggingface_hub
+anthropic
+mistralai
