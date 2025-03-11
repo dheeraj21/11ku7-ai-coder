@@ -143,7 +143,7 @@ Using 11KU7 AI Coder Responsibly & Powerfully:
 
 
 
-{colorize_text("Release Date: 11-03", COLORS["white"])}{colorize_text("-2025", COLORS["white"])}
+{colorize_text("Release Date: 12-03", COLORS["white"])}{colorize_text("-2025", COLORS["white"])}
 
 {colorize_text("Country of Origin: India", COLORS["white"])}
 
