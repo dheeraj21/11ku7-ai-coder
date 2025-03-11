@@ -5,7 +5,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
-![11ku7-logo-090325](https://github.com/user-attachments/assets/e849cb06-3b92-4c99-bba5-6c8c72ef433f)
+
+![11ku7-logo-110325_imresizer](https://github.com/user-attachments/assets/6b23d280-274f-44df-b939-df06455614af)
 
 
 **11KU7 AI Coder** is a robust yet remarkably user-friendly AI coding assistant, meticulously crafted in Python to revolutionize your software development process.  This command-line powerhouse seamlessly integrates a diverse array of cutting-edge Large Language Models (LLMs) and specialized AI tools, putting a wealth of intelligent capabilities directly at your fingertips.  Imagine effortlessly generating clean, efficient code across multiple programming languages, intelligently managing complex development projects, quickly deciphering and extracting insights from intricate documents, and performing lightning-fast web research – all without ever leaving the comfort and efficiency of your terminal.  
