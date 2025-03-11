@@ -75,7 +75,7 @@ Follow the on-screen prompts to select your model provider, configure API keys, 
 
 You can directly run 11ku7-ai-coder by running executable in windows.
 
-[11ku7-ai-coder-v-1-0-windows](https://github.com/dheeraj21/11ku7-ai-coder/releases/download/11ku7-ai-coder-v-1-0-windows/11ku7-ai-coder-v-1-0-windows.exe)
+[11ku7-ai-coder-v-1-0-windows](https://github.com/dheeraj21/11ku7-ai-coder/releases/download/windows/11ku7-ai-coder-v-1-0-windows.exe)
 
 
 ## 📝 Usage
