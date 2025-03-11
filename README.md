@@ -71,6 +71,13 @@ python 11ku7-ai-coder-v-1-0.py
 
 Follow the on-screen prompts to select your model provider, configure API keys, and start using the AI Coder!
 
+### Running in windows with executable
+
+You can directly run 11ku7-ai-coder by running executable in windows.
+
+[11ku7-ai-coder-v-1-0-windows](https://github.com/dheeraj21/11ku7-ai-coder/releases/download/11ku7-ai-coder-v-1-0-windows/11ku7-ai-coder-v-1-0-windows.exe)
+
+
 ## 📝 Usage
 
 Once you run the script, you'll be presented with a menu outlining the available commands and modes.
