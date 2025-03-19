@@ -8,3 +8,4 @@ Pillow
 huggingface_hub
 anthropic
 mistralai
+google-genai

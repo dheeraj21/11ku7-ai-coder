@@ -137,13 +137,15 @@ Using 11KU7 AI Coder Responsibly & Powerfully:
 
     cover_page = f"""{logo_colored}
 
-                                    {colorize_text("(version", COLORS["white"] + COLORS["bold"])} {colorize_text("1", COLORS["white"] + COLORS["bold"])}{colorize_text(".", COLORS["white"] + COLORS["bold"])}{colorize_text("0)", COLORS["white"] + COLORS["bold"])}
+                                    {colorize_text("(version", COLORS["white"] + COLORS["bold"])} {colorize_text("1", COLORS["white"] + COLORS["bold"])}{colorize_text(".", COLORS["white"] + COLORS["bold"])}{colorize_text("1)", COLORS["white"] + COLORS["bold"])}
 
                       {colorize_text("Intelligent Assistance, Right in Your Terminal", COLORS["white"])}
 
 
 
 {colorize_text("Release Date: 12-03", COLORS["white"])}{colorize_text("-2025", COLORS["white"])}
+
+{colorize_text("Current Version Release Date: 19-03", COLORS["white"])}{colorize_text("-2025", COLORS["white"])}
 
 {colorize_text("Country of Origin: India", COLORS["white"])}
 
