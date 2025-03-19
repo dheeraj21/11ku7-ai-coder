@@ -1,5 +1,5 @@
 
-# 11KU7 AI Coder (version 1.0)
+# 11KU7 AI Coder (version 1.1)
 # Intelligent Assistance, Right in Your Terminal
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,31 +8,25 @@
 
 ![11ku7-logo-110325_imresizer](https://github.com/user-attachments/assets/6b23d280-274f-44df-b939-df06455614af)
 
+**11KU7 AI Coder** is a simple shell based ai coding assistant powered with ai agents in form of modes, these modes have- 
 
-**11KU7 AI Coder** is a robust yet remarkably user-friendly AI coding assistant, meticulously crafted in Python to revolutionize your software development process.  This command-line powerhouse seamlessly integrates a diverse array of cutting-edge Large Language Models (LLMs) and specialized AI tools, putting a wealth of intelligent capabilities directly at your fingertips.  Imagine effortlessly generating clean, efficient code across multiple programming languages, intelligently managing complex development projects, quickly deciphering and extracting insights from intricate documents, and performing lightning-fast web research – all without ever leaving the comfort and efficiency of your terminal.  
+*   **Coding Functionality** - includes code generation (code mode) and code analysis (ask code mode)
+*   **Web Search Functionality** - includes web search powered by brave api (web search mode)
+*   **Image Functionality** - includes image generation , image editing (image mode) and image analysis (ask image mode)
+*   **Document Functionality** - Document analysis (ask docu mode)
+*   **URL Functionality** - URL analysis (ask URL mode)
+*   **Shell Functionality** - Shell Comands generation and execution for task mentioned in natural language (shell agent mode)
+*   **App Functionality** - App development including web apps (web app mode) and mobile apps based upon vite & expo frameworks (vitex app mode)
+*   **Multi file Functionality** - Generates full-stack coding projects including software and apps requiring multi file generation, Git Repository creation, Existing repository analysis and editing (gitrepo mode)
 
-**11KU7 AI Coder** is designed to be your indispensable development companion, streamlining every stage of your workflow from initial concept to final execution, boosting your productivity and empowering you to code smarter, not harder.
+### What's New
 
-## ✨ Key Features
+**11ku7-ai-coder (version 1.1)**
 
-*   **Multi-Model Support:**  Choose from a wide range of AI model providers including Groq, OpenRouter, Ollama, OpenAI, Gemini, Mistral, Anthropic, and more!
-*   **Versatile Modes:**  Explore 11 distinct modes for different development tasks:
-    *   **Code Generation Mode (`code`):**  Generate code snippets in various programming languages.
-    *   **Web App Generation Mode (`web app`):**  Create basic web applications with HTML, JavaScript, and Tailwind CSS.
-    *   **Ask Code Mode (`ask code`):** Analyze and answer questions about your code files.
-    *   **Ask Image Mode (`ask image`):**  Understand and query image content (local files or URLs).
-    *   **Ask URL Mode (`ask url`):**  Summarize and get insights from webpage content.
-    *   **Ask Document Mode (`ask docu`):**  Extract information and answer questions from PDF, Markdown, and text documents.
-    *   **Image Generation Mode (`image`):**  Generate images from text prompts using Hugging Face models.
-    *   **Shell Agent Mode (`shell agent`):**  Get intelligent assistance with shell commands for your OS.
-    *   **Vitex App Mode (`vitex app`):**  Interactive mode to create and modify React apps with Vite or Expo, including running and previewing.
-    *   **Git Repository Mode (`gitrepo`):**  Manage and modify general Git repositories, with code understanding and command suggestions.
-    *   **Web Search Mode (`web search`):**  Perform web searches and get summarized answers based on search results using Brave Search API.
-*   **Interactive Menu:**  Easy-to-navigate command-line menu to access all features and modes.
-*   **Conversation History:** Save your AI interactions to markdown files for future reference.
-*   **File Management:** Basic file and folder creation, directory navigation, and file execution directly from the tool.
-*   **Cross-Platform Compatibility:**  Designed to work on Windows, Linux, macOS, and Termux (Android).
-*   **Optional Dependencies & Installation Help:**  Provides guidance for installing optional tools like Poppler for advanced PDF features.
+*   Added new image provider Gemini
+*   Added "image Editor" sub-mode inside "image mode" works with Gemini image provider only
+*   Dependencies update - (added) google-genai
+
 
 ## 🚀 Getting Started
 
@@ -44,6 +38,7 @@
     *   **Poppler (Windows):** For advanced image querying in PDF documents in "ask docu" mode (installation instructions provided in the tool via `install poppler` or `install help`).
     *   **Node.js and npm (for Vitex App Mode):** Required for creating and running React/Expo applications.
     *   **Git (for Git Repository Mode):** Required for working with Git repositories.
+
 
 
 ## 📦 Installation
@@ -66,16 +61,43 @@ pip install -r requirements.txt
 
 ### Running the Script
 ```bash
-python 11ku7-ai-coder-v-1-0.py
+python 11ku7-ai-coder-v-1-1.py
 ```
 
 Follow the on-screen prompts to select your model provider, configure API keys, and start using the AI Coder!
 
 ### Running in windows with executable
 
-You can directly run 11ku7-ai-coder by running executable in windows.
+Directly run 11ku7-ai-coder by running executable in windows.
 
-[11ku7-ai-coder-v-1-0-windows](https://github.com/dheeraj21/11ku7-ai-coder/releases/download/windows/11ku7-ai-coder-v-1-0-windows.exe)
+[11ku7-ai-coder-v-1-1-windows](https://github.com/dheeraj21/11ku7-ai-coder/releases/download/11ku7-ai-coder-v-1-1-windows/11ku7-ai-coder-v-1-1-windows.exe)
+
+
+
+
+
+## ✨ Key Features
+
+*   **Multi-Model Support:**  Choose from a wide range of AI model providers including Groq, OpenRouter, Ollama, OpenAI, Gemini, Mistral, Anthropic, and more!
+*   **Versatile Modes:**  Explore 11 distinct modes for different development tasks:
+    *   **Code Generation Mode (`code`):**  Generate code snippets in various programming languages.
+    *   **Web App Generation Mode (`web app`):**  Create basic web applications with HTML, JavaScript, and Tailwind CSS.
+    *   **Ask Code Mode (`ask code`):** Analyze and answer questions about your code files.
+    *   **Ask Image Mode (`ask image`):**  Understand and query image content (local files or URLs).
+    *   **Ask URL Mode (`ask url`):**  Summarize and get insights from webpage content.
+    *   **Ask Document Mode (`ask docu`):**  Extract information and answer questions from PDF, Markdown, and text documents.
+    *   **Image Generation Mode (`image`):**  Generate images from text prompts using Hugging Face models.
+    *   **Shell Agent Mode (`shell agent`):**  Get intelligent assistance with shell commands for your OS.
+    *   **Vitex App Mode (`vitex app`):**  Interactive mode to create and modify React apps with Vite or Expo, including running and previewing.
+    *   **Git Repository Mode (`gitrepo`):**  Manage and modify general Git repositories, with code understanding and command suggestions.
+    *   **Web Search Mode (`web search`):**  Perform web searches and get summarized answers based on search results using Brave Search API.
+*   **Interactive Menu:**  Easy-to-navigate command-line menu to access all features and modes.
+*   **Conversation History:** Save your AI interactions to markdown files for future reference.
+*   **File Management:** Basic file and folder creation, directory navigation, and file execution directly from the tool.
+*   **Cross-Platform Compatibility:**  Designed to work on Windows, Linux, macOS, and Termux (Android).
+*   **Optional Dependencies & Installation Help:**  Provides guidance for installing optional tools like Poppler for advanced PDF features.
+
+
 
 
 ## 📝 Usage
@@ -192,12 +214,13 @@ Break down of each of the 11 modes in detail:
 *   **Activation:** Type `image` at the main prompt.
 *   **Functionality:**
     *   Prompts for a text description of the desired image.
-    *   Uses the selected image generation model (via Hugging Face Inference Client and `IMAGE_MODEL`) to generate an image.
+    *   Uses the selected image generation model (Gemini & Huggingface `IMAGE_MODE`) to generate an image.
     *   Saves the generated image to a file (PNG, JPG, or JPEG).
     *   Displays the save path and generation time.
     *   Allows generating multiple images in a session.
 *   **Input:** Text prompts describing the desired image.
 *   **Output:** Saved image files (PNG, JPG, or JPEG).
+*   **Image Editor mode:** edit images inside this submode runs with gemini image provider only.
 *   **Underlying Function:** `image()`
 
 **8. shell agent (Shell Agent Mode):**
